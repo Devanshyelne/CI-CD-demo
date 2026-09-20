@@ -1,0 +1,28 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/Devanshyelne/CI-CD-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Devanshyelne/CI-CD-demo/issues"
+  },
+  "homepage": "https://github.com/Devanshyelne/CI-CD-demo#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14"
+  }
+}
